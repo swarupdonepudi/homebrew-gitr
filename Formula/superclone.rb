@@ -4,6 +4,6 @@ class SuperClone < Formula
   url "https://github.com/swarupdonepudi/super-clone/releases/download/0.1/clone"
 
   def install
-    bin.install "clone-darwin"
+    bin.install "clone"
   end
 end
