@@ -4,6 +4,6 @@ class SuperClone < Formula
   url "https://github.com/swarupdonepudi/super-clone/releases/download/0.1/clone-darwin"
 
   def install
-    system "echo", "swaroop"
+    mv clone-darwin /usr/local/bin/clone
   end
 end
