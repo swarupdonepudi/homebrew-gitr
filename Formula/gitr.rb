@@ -1,13 +1,13 @@
 class Gitr < Formula
   desc "Tool to clone git repositories using browser http/https urls"
   homepage "https://github.com/swarupdonepudi/gitr"
-  url "https://github.com/swarupdonepudi/super-clone/releases/download/0.5/gitr",
-    :tag      => "v0.5",
-    :revision => "0ca14df5b83136dd75d2b2c4886d8c7dfa2e89af"
+  url "https://github.com/swarupdonepudi/gitr/releases/download/v1.0/gitr",
+    :tag      => "v1.0",
+    :revision => "931f70bc2338cebcb61127ed3f2192020b62bbbb"
   head "https://github.com/swarupdonepudi/gitr.git",
     :shallow => false
   version "0.5"
-  sha256 "069747bf93cee4f6bb6927400dfa47c9b08f856428df2f908581e584729c95f1"
+  sha256 "c1075c3e17bf7be22583f403522a43b21b941e4f57e553b45e46f0fc93a12f5d"
   def install
     bin.install "gitr"
   end
