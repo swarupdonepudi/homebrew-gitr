@@ -1,13 +1,13 @@
 class Gitr < Formula
   desc "GitRapid: The missing link between Git CLI and SCM Providers"
   homepage "https://github.com/swarupdonepudi/gitr"
-  url "https://github.com/swarupdonepudi/gitr/releases/download/v1.1.2/gitr",
-    :tag      => "v1.1.2",
-    :revision => "b066f0141f05667c7e78f938c57b59a0c3a9eb10"
+  url "https://github.com/swarupdonepudi/gitr/releases/download/v1.1.3/gitr",
+    :tag      => "v1.1.3",
+    :revision => "cc0fd5e1f71e76a8f74566824a0c2bad4b34cb15"
   head "https://github.com/swarupdonepudi/gitr.git",
     :shallow => false
-  version "v1.1.2"
-  sha256 "f717fb76d9dce1dcf2ab11b5f39c82c33b4623e29c89ea78c75f7960d70cd36b"
+  version "v1.1.3"
+  sha256 "7b91edbaba299509bacbc3296c53a6ef635d697ddcdf93f356df45570fc468ac"
   def install
     bin.install "gitr"
   end
