@@ -9,6 +9,7 @@ class Gitr < Formula
   version "v1.1.3"
   sha256 "44e0d8130d704732abb84073fb4453d29cc02aa76dba0e1107c2967c10873f4f"
   def install
-    bin.install "gitr"
+    bin.install "gitr-darwin"
+    mv bin/"gitr-darwin", bin/"gitr"
   end
 end
