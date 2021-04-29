@@ -7,7 +7,7 @@ class Gitr < Formula
   head "https://github.com/swarupdonepudi/gitr.git",
     :shallow => false
   version "v2.0.0"
-  sha256 "0c381cacfdd0f0ac3b7bc356bb02c3eff83da88f44022cdce375f94cd7cafcd5"
+  sha256 "92ea94884f7fb7f1c870d3ba4df596d1ed7bb2e666d5e2abe53b0b4f07a05327"
   def install
     bin.install "gitr-darwin"
     mv bin/"gitr-darwin", bin/"gitr"
